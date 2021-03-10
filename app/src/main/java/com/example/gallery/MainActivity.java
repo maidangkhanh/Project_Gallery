@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onViewByAlbumClick(View view){
-
+        Intent intent = new Intent(this,ViewByAlbumActivity.class);
+        startActivity(intent);
     }
 }
