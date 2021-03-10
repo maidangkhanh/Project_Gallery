@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onViewAllClick(View view){
-
+        Intent intent = new Intent(this,ViewAllActivity.class);
+        startActivity(intent);
     }
 
     public void onViewByAlbumClick(View view){
